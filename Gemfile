@@ -20,6 +20,9 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'bcrypt-ruby', '3.1.2'
+  gem 'factory_girl_rails', '4.2.1'
+
 end
 
 # Use SCSS for stylesheets
@@ -53,8 +56,8 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+#Use ActiveModel has_secure_password
+#gem 'bcrypt'
 
 # Use unicorn as the app server
 # gem 'unicorn'
