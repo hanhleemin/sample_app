@@ -1,12 +1,19 @@
 @import "bootstrap";
 
 $grayMediumLight: #eaeaea;
+<<<<<<< HEAD
 @mixin box_sizing {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+=======
+@mixin box-sizing {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+>>>>>>> sign-up
 html {
   overflow-y: scroll;
 }
@@ -99,23 +106,37 @@ footer ul li {
   float: left;
   margin-left: 10px;
 }
+<<<<<<< HEAD
 
 .debug_dump {
+=======
+.debug_dump{
+>>>>>>> sign-up
   clear: both;
   float: left;
   width: 100%;
   margin-top: 45px;
+<<<<<<< HEAD
   @include box_sizing;
 }
 
 
 /* sidebar */
 
+=======
+  @include box-sizing;
+}
+
+>>>>>>> sign-up
 aside {
   section {
     padding: 10px 0;
     border-top: 1px solid $grayLighter;
+<<<<<<< HEAD
     &:first-child {
+=======
+    &:first-child{
+>>>>>>> sign-up
       border: 0;
       padding-top: 0;
     }
@@ -124,7 +145,11 @@ aside {
       margin-bottom: 3px;
       line-height: 1;
     }
+<<<<<<< HEAD
     h1 {
+=======
+    h1{
+>>>>>>> sign-up
       font-size: 1.4em;
       text-align: left;
       letter-spacing: -1px;
@@ -134,22 +159,34 @@ aside {
   }
 }
 
+<<<<<<< HEAD
 .gravatar {
+=======
+.gravatar{
+>>>>>>> sign-up
   float: left;
   margin-right: 10px;
 }
 
+<<<<<<< HEAD
 /* forms */
 
+=======
+>>>>>>> sign-up
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
+<<<<<<< HEAD
   @include box_sizing;
+=======
+  @include box-sizing;
+>>>>>>> sign-up
 }
 
 input {
   height: auto !important;
+<<<<<<< HEAD
 }
 
 #error_explanation {
@@ -163,4 +200,6 @@ input {
 .field_with_errors {
   @extend .control-group;
   @extend .error;
+=======
+>>>>>>> sign-up
 }

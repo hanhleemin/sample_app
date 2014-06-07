@@ -4,7 +4,11 @@ describe "User pages" do
   subject { page }
 
   describe "profile page" do
+<<<<<<< HEAD
     let(:user) { FactoryGirl.create(:user) }
+=======
+    let(:user) { FactoryGirl.create(:user)}
+>>>>>>> sign-up
     before { visit user_path(user) }
 
     it { should have_content(user.name) }
