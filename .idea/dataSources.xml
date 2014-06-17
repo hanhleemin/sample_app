@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="729159278">
+  <component name="DataSourceManagerImpl" format="xml" hash="976491313">
     <data-source source="LOCAL" name="Rails sample_app: development" uuid="60287edb-7d2a-47a7-a244-86fe978c3f4c">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
@@ -21,6 +21,14 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:sample_app_production</jdbc-url>
+      <user-name>hanh</user-name>
+      <user-password>df9bdf98df99df9edfcbdfc8dfc9dfce</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails sample_app: cucumber" uuid="517a6cae-e93a-45cb-af69-b940c1769861">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:sample_app_test</jdbc-url>
       <user-name>hanh</user-name>
       <user-password>df9bdf98df99df9edfcbdfc8dfc9dfce</user-password>
       <libraries />

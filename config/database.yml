@@ -6,7 +6,7 @@ development:
   username: hanh
   password: 1234abcd
 
-test: &TEST
+test: &test
   adapter: postgresql
   encoding: utf8
   database: sample_app_test
@@ -21,3 +21,5 @@ production:
   pool: 5
   username: hanh
   password: 1234abcd
+cucumber:
+  <<: *test
